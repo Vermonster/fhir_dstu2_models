@@ -13,7 +13,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'tilt'
   s.add_dependency 'rails', '>= 4.0.0'
-  s.add_dependency 'mongoid'
+  s.add_dependency 'mongoid', '~> 4.0'
+  s.add_dependency 'bson', '~> 2'
   s.add_dependency 'nokogiri'
   s.add_dependency 'mongoid-history'
   s.add_dependency 'date_time_precision'
